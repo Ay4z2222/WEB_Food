@@ -1,0 +1,480 @@
+{
+  "categories": [
+    {
+      "id": "meat",
+      "name": "เนื้อสัตว์ / ซีฟู้ด",
+      "icon": "Flame"
+    },
+    {
+      "id": "veggie",
+      "name": "ผัก / เห็ด / เส้น",
+      "icon": "Salad"
+    },
+    {
+      "id": "snack",
+      "name": "ของทานเล่น / ของทอด",
+      "icon": "UtensilsCrossed"
+    },
+    {
+      "id": "drink",
+      "name": "เครื่องดื่ม",
+      "icon": "CupSoda"
+    },
+    {
+      "id": "dessert",
+      "name": "ของหวาน / ไอศกรีม",
+      "icon": "IceCream",
+      "selfServiceNotice": "บริการตัวเองที่บาร์ของหวานด้านหลังร้าน ตักได้ไม่อั้น!"
+    },
+    {
+      "id": "service",
+      "name": "บริการเสริม",
+      "icon": "Bell"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "m1",
+      "categoryId": "meat",
+      "name": "หมูสามชั้นหมักงา",
+      "desc": "สามชั้นคัดพิเศษ หมักซอสงาสูตรเด็ดร้าน",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m2",
+      "categoryId": "meat",
+      "name": "สันคอสไลด์บาง",
+      "desc": "แทรกมันนุ่ม ละลายบนกระทะ",
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m3",
+      "categoryId": "meat",
+      "name": "หมูหมักพริกไทยดำ",
+      "desc": "หมูเนื้อนุ่ม หอมกลิ่นพริกไทยดำแท้",
+      "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m4",
+      "categoryId": "meat",
+      "name": "เบคอนสดสไลด์",
+      "desc": "ปิ้งกรอบเกรียม หอมมันหมูกระทะแท้",
+      "image": "https://images.unsplash.com/photo-1528607929212-2636ec44253e?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m5",
+      "categoryId": "meat",
+      "name": "ตับหมูสด",
+      "desc": "ตับสดใหม่ ลวกสุกหวานกำลังดี",
+      "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m6",
+      "categoryId": "meat",
+      "name": "กุ้งขาวสด",
+      "desc": "กุ้งสดเนื้อเด้ง ปิ้งหรือต้มน้ำซุปก็หวาน",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m7",
+      "categoryId": "meat",
+      "name": "หมึกกล้วยบั้ง",
+      "desc": "หมึกสดเนื้อกรอบ ปิ้งพอสะดุ้งไฟ",
+      "image": "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "m8",
+      "categoryId": "meat",
+      "name": "ปลาดอลลี่สไลด์",
+      "desc": "เนื้อปลาขาวนุ่ม ต้มซุปละมุน",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "v1",
+      "categoryId": "veggie",
+      "name": "กะหล่ำปลีซอยฝอย",
+      "desc": "ผักคู่บุญหมูกระทะ ต้มซุปแล้วหวานฉ่ำ",
+      "image": "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "v2",
+      "categoryId": "veggie",
+      "name": "ผักบุ้งจีน",
+      "desc": "ยอดอ่อนกรอบ สดสะอาด",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "v3",
+      "categoryId": "veggie",
+      "name": "เห็ดเข็มทอง",
+      "desc": "เห็ดขาวกรุบกรอบ",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "v4",
+      "categoryId": "veggie",
+      "name": "ข้าวโพดอ่อน",
+      "desc": "กรอบหวาน เพิ่มรสชาติน้ำซุป",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "v5",
+      "categoryId": "veggie",
+      "name": "วุ้นเส้นสด",
+      "desc": "วุ้นเส้นเหนียวนุ่ม ดูดซับน้ำซุป",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "v6",
+      "categoryId": "veggie",
+      "name": "บะหมี่หยกโรยกระเทียม",
+      "desc": "เส้นเหนียวนุ่ม ลวกคลุกกระเทียมเจียว",
+      "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "s1",
+      "categoryId": "snack",
+      "name": "เกี๊ยวหมูทอดกรอบ",
+      "desc": "ทอดใหม่ร้อนๆ จิ้มน้ำจิ้มบ๊วย",
+      "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "s2",
+      "categoryId": "snack",
+      "name": "ไก่ป๊อปสไปซี่",
+      "desc": "ไก่กรอบคลุกผงวิงแซ่บ",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "s3",
+      "categoryId": "snack",
+      "name": "เฟรนช์ฟรายส์ทอด",
+      "desc": "มันฝรั่งทอดร้อนๆ โรยเกลือ",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "s4",
+      "categoryId": "snack",
+      "name": "ไส้กรอกแดงในตำนาน",
+      "desc": "ทอดพองกรอบนอกนุ่มใน",
+      "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "d1",
+      "categoryId": "drink",
+      "name": "เป๊ปซี่ (กระป๋อง)",
+      "desc": "เครื่องดื่มอัดลมเย็นชื่นใจ",
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "d2",
+      "categoryId": "drink",
+      "name": "น้ำเขียวสไปรท์ (กระป๋อง)",
+      "desc": "เย็นสดชื่น หอมกลิ่นมะนาว",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "d3",
+      "categoryId": "drink",
+      "name": "ชามะนาวเย็น",
+      "desc": "เปรี้ยวหวานกลมกล่อม ดับเลี่ยน",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "d4",
+      "categoryId": "drink",
+      "name": "น้ำแข็ง 1 ถัง",
+      "desc": "ถังน้ำแข็งเสริมพร้อมที่คีบ",
+      "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": true
+    },
+    {
+      "id": "sw1",
+      "categoryId": "dessert",
+      "name": "ไอศกรีม 6 รสชาติ",
+      "desc": "กะทิรวมมิตร, ช็อกโกแลต, มะนาว, วานิลลา, ชาไทย, สตรอว์เบอร์รี (ตักเองที่บาร์)",
+      "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": false
+    },
+    {
+      "id": "sw2",
+      "categoryId": "dessert",
+      "name": "รวมมิตรน้ำกะทิ ลอดช่องแตงไทย",
+      "desc": "เครื่องแน่น น้ำกะทิหอมอบควันเทียน (ตักเองที่บาร์)",
+      "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": false
+    },
+    {
+      "id": "sw3",
+      "categoryId": "dessert",
+      "name": "ผลไม้ตามฤดูกาล (แตงโม/สับปะรด)",
+      "desc": "แตงโมเย็นหวานฉ่ำ ล้างปากหลังมื้อ (ตักเองที่บาร์)",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500&auto=format&fit=crop&q=60",
+      "isAvailable": true,
+      "isOrderable": false
+    }
+  ],
+  "serviceTypes": [
+    {
+      "id": "coal",
+      "title": "ขอเติมถ่าน / ไฟมอด",
+      "icon": "Flame",
+      "desc": "พนักงานจะนำถ่านร้อนมาเติมให้ที่เตา"
+    },
+    {
+      "id": "pan",
+      "title": "ขอเปลี่ยนกระทะใหม่",
+      "icon": "RefreshCw",
+      "desc": "กระทะไหม้ เกรียม ขอสลับใบใหม่ทันที"
+    },
+    {
+      "id": "soup",
+      "title": "ขอเติมน้ำซุปกระดูกหมู",
+      "icon": "Soup",
+      "desc": "พนักงานจะนำการวมซุปมาเติมให้"
+    },
+    {
+      "id": "staff",
+      "title": "เรียกพนักงานที่โต๊ะ",
+      "icon": "UserCheck",
+      "desc": "ต้องการความช่วยเหลืออื่นๆ"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-1",
+      "number": 1,
+      "name": "โต๊ะ 01",
+      "status": "active",
+      "token": "JEE6FL",
+      "startTime": "2026-10-27T04:09:49.351Z",
+      "endTime": "2026-10-27T05:39:49.351Z",
+      "durationMinutes": 90,
+      "customerCount": 2
+    },
+    {
+      "id": "table-2",
+      "number": 2,
+      "name": "โต๊ะ 02",
+      "status": "active",
+      "token": "U1JG3F",
+      "startTime": "2026-10-27T04:02:15.184Z",
+      "endTime": "2026-10-27T05:32:15.184Z",
+      "durationMinutes": 90,
+      "customerCount": 6
+    },
+    {
+      "id": "table-3",
+      "number": 3,
+      "name": "โต๊ะ 03",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-4",
+      "number": 4,
+      "name": "โต๊ะ 04",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-5",
+      "number": 5,
+      "name": "โต๊ะ 05",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-6",
+      "number": 6,
+      "name": "โต๊ะ 06",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-7",
+      "number": 7,
+      "name": "โต๊ะ 07",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-8",
+      "number": 8,
+      "name": "โต๊ะ 08",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-9",
+      "number": 9,
+      "name": "โต๊ะ 09",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-10",
+      "number": 10,
+      "name": "โต๊ะ 10",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-11",
+      "number": 11,
+      "name": "โต๊ะ 11",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    },
+    {
+      "id": "table-12",
+      "number": 12,
+      "name": "โต๊ะ 12",
+      "status": "available",
+      "token": null,
+      "startTime": null,
+      "endTime": null,
+      "durationMinutes": 90,
+      "customerCount": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-mvq61upt-mgj",
+      "tableId": "table-2",
+      "tableName": "โต๊ะ 02",
+      "token": "U1JG3F",
+      "items": [
+        {
+          "menuId": "m2",
+          "name": "สันคอสไลด์บาง",
+          "qty": 2,
+          "status": "served"
+        },
+        {
+          "menuId": "m3",
+          "name": "หมูหมักพริกไทยดำ",
+          "qty": 2,
+          "status": "served"
+        }
+      ],
+      "status": "served",
+      "createdAt": "2026-10-27T04:09:07.265Z"
+    },
+    {
+      "id": "ord-mvq5rzah-vos",
+      "tableId": "table-1",
+      "tableName": "โต๊ะ 01",
+      "token": "UDHM1H",
+      "items": [
+        {
+          "menuId": "m1",
+          "name": "หมูสามชั้นหมักงา",
+          "qty": 2,
+          "status": "served"
+        },
+        {
+          "menuId": "m7",
+          "name": "หมึกกล้วยบั้ง",
+          "qty": 2,
+          "status": "served"
+        }
+      ],
+      "status": "served",
+      "createdAt": "2026-10-27T04:01:26.633Z"
+    }
+  ],
+  "serviceRequests": [
+    {
+      "id": "srv-1793073956455",
+      "tableId": "table-2",
+      "tableName": "โต๊ะ 02",
+      "token": "U1JG3F",
+      "requestType": "coal",
+      "title": "ขอเติมถ่าน / ไฟมอด",
+      "status": "completed",
+      "createdAt": "2026-10-27T04:05:56.456Z"
+    }
+  ]
+}
