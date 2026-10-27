@@ -3,7 +3,6 @@ import { Smartphone, ChefHat, LayoutGrid, Sparkles } from 'lucide-react';
 import CustomerView from './views/CustomerView';
 import KitchenView from './views/KitchenView';
 import CashierView from './views/CashierView';
-import { socket } from './socket';
 
 export default function App() {
   // Current view: 'customer' | 'kitchen' | 'cashier'
